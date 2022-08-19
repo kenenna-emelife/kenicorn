@@ -5,7 +5,7 @@ button {
 
 body {
    scroll-behavior: smooth;
-   
+
 }
 
 #src {
@@ -99,16 +99,17 @@ h3 {
 }
 
 #sec {
-   padding: 15px;
-   justify-content: space-between;
+   padding: 10px;
+   justify-content: space-evenly;
 
 }
 
 #secsec {
-   justify-content: space-between;
-   column-rule-color: black;
-   display: flex;
-   flex-shrink: initial;
+   padding: 10px;
+   justify-content: space-evenly;
+
+
+
 }
 
 .fi {
@@ -120,10 +121,7 @@ h3 {
    padding-top: 0;
 }
 
-.f {
-   padding-left: 30px;
 
-}
 
 .f:hover {
    transform: scale(1.2);
@@ -135,9 +133,8 @@ h3 {
 
 }
 
-#h1  {
-   text-align: center;
+#h1 {
+
    font-weight: 50;
    cursor: pointer;
 }
- 
