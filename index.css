@@ -135,6 +135,9 @@ h3 {
 }
 
 .img-head { 
-   width: 1215px;
+   width: 1340px;
    filter: brightness(300px)
+}
+#red{
+   color: blue;
 }
