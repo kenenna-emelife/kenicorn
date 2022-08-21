@@ -1,11 +1,22 @@
+body{
+   max-width: 1340px;
+   position:relative;
+   overflow-x: hidden;
+}
 button {
    border: none;
    float: left;
 }
-
+.head{
+   margin-top: -10px;
+   left: 5px;
+   position: fixed; 
+   width: 1340px;
+   background-color: white;
+}
 #src {
    text-align: center;
-   top: 5%;
+   top: 10%;
    left: 20%;
    padding: 15px;
    border-radius: 15px;
@@ -14,6 +25,10 @@ button {
    height: 20px;
    width: 800px;
    display: flex;
+}
+#hr{
+   margin-top: 120px;
+  
 }
 
 .s {
@@ -142,7 +157,7 @@ h3 {
 footer{
    height: 300px;
    background-color: black;
-   
+   display: flex;
 }
 
  .links {
@@ -159,10 +174,13 @@ footer{
 }
 
 
-.links a:hover{
+footer a:hover{
 color: white;
-padding-top: 50px;
+
 }
 #description{
    color: rgb(194, 186, 186);
+}
+footer li:hover{
+   color: aliceblue;
 }
