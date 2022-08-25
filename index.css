@@ -1,6 +1,4 @@
 body{
-   max-width: 1340px;
-   position:relative;
    overflow-x: hidden;
 }
 button {
@@ -151,7 +149,7 @@ h3 {
 
 .img-head { 
    width: 1340px;
-   filter: brightness(300px)
+   height: 600px;
 }
 
 footer{
@@ -183,4 +181,17 @@ color: white;
 }
 footer li:hover{
    color: aliceblue;
+}
+
+.img-top{
+   width: 1340px;
+}
+.img-head{
+   width: 100%;
+   object-fit: cover;
+}
+
+.myslides{
+   -webkit-animation: slide-right 0.5s cubic-bezier(0.250,0.460,0.450,0.940) ;
+   animation: slide-right 0.5s cubic-bezier(0.250,0.460,0.450,0.940) ;
 }
