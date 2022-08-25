@@ -1,6 +1,8 @@
 body{
+ 
    overflow-x: hidden;
 }
+
 button {
    border: none;
    float: left;
@@ -23,6 +25,7 @@ button {
    height: 20px;
    width: 800px;
    display: flex;
+  
 }
 #hr{
    margin-top: 120px;
@@ -90,6 +93,7 @@ section {
    justify-content: center;
    width: 350px;
    height: 200px;
+
 }
 
 h2 {
@@ -109,13 +113,13 @@ h3 {
 #sec {
    padding: 10px;
    justify-content: space-evenly;
-
+   background-color: white;
 }
 
 #secsec {
    padding: 10px;
    justify-content: space-evenly;
-
+   background-color: white;
 
 
 }
@@ -183,9 +187,7 @@ footer li:hover{
    color: aliceblue;
 }
 
-.img-top{
-   width: 1340px;
-}
+
 .img-head{
    width: 100%;
    object-fit: cover;
@@ -194,4 +196,36 @@ footer li:hover{
 .myslides{
    -webkit-animation: slide-right 0.5s cubic-bezier(0.250,0.460,0.450,0.940) ;
    animation: slide-right 0.5s cubic-bezier(0.250,0.460,0.450,0.940) ;
+}
+.rolls{
+height: 250px;
+width: 350px;
+
+margin-left:25pc ;
+border-radius: 1pc;
+
+}
+
+#royce{
+   margin: 3pc;
+  
+}
+#royce h1{
+   text-align: center;
+}
+.rollsx{
+   text-align: center;
+   
+}
+.tech{
+   height: 300px;
+   background:radial-gradient(white, rgb(143, 120, 130)) ;
+}
+.tech button{
+   width: 200px;
+   height: 40px;
+   margin-left: 10px;
+   background: radial-gradient(white, red);
+   cursor: pointer;
+   font-size: 15px;
 }
