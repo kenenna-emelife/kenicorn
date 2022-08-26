@@ -1,8 +1,69 @@
+
 body{
  
    overflow-x: hidden;
 }
-
+.brands{
+   cursor: pointer;
+   color: white;
+   background-color:black ;
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 10px;
+   text-align: center;
+}
+.brands ul{
+display: inline-flex;
+text-align: center;
+}
+.brands ul li{
+   list-style: none;
+   
+   margin-left: 60px;
+   margin-right: 60px;
+}
+.brands ul li a{
+   padding: 15px;
+   text-decoration: none;
+   color: white;
+}
+.brands ul li a:hover{
+   opacity: 0.5;
+   background-color: white;
+   color: black;
+}
+.drop{
+   display: none;
+}
+.drop ul li{
+   padding: 15px;
+   margin-left: 5px;
+}
+.drop ul li:hover{
+   color: black;
+   background-color: white;
+   opacity: 0.5;
+}
+.brands ul li:hover .drop{
+   display: block;
+   position: absolute;
+   background-color: black;
+   margin-top: 15px;
+   margin-left: 15px;
+}
+.brands ul li:hover .drop ul{
+   display: block;
+   margin: 10px;
+}
+.brands ul li:hover .drop ul li{
+   border-bottom: 1px solid gray;
+   width: 150px;
+ 
+ 
+  padding: 10px;
+  text-align: left;
+  border-radius: 0;
+}
 button {
    border: none;
    float: left;
@@ -10,7 +71,7 @@ button {
 .head{
    margin-top: -10px;
    left: 5px;
-   position: fixed; 
+   
    width: 1340px;
    background-color: white;
 }
@@ -27,10 +88,7 @@ button {
    display: flex;
   
 }
-#hr{
-   margin-top: 120px;
-  
-}
+
 
 .s {
    width: 600px;
@@ -162,6 +220,7 @@ footer{
    display: flex;
 }
 
+
  .links {
    margin: 15px;
  
@@ -200,7 +259,7 @@ footer li:hover{
 .rolls{
 height: 250px;
 width: 350px;
-
+cursor: pointer;
 margin-left:25pc ;
 border-radius: 1pc;
 
@@ -210,6 +269,12 @@ border-radius: 1pc;
    margin: 3pc;
   
 }
+.rolls:hover{
+   transform:scale(1.1);
+   transition: all 400ms ease-in-out;
+}
+   
+
 #royce h1{
    text-align: center;
 }
@@ -217,15 +282,32 @@ border-radius: 1pc;
    text-align: center;
    
 }
-.tech{
-   height: 300px;
-   background:radial-gradient(white, rgb(143, 120, 130)) ;
+.pc{
+   height: 250px;
+width: 350px;
+cursor: pointer;
+margin-left:25pc ;
+
 }
-.tech button{
-   width: 200px;
-   height: 40px;
-   margin-left: 10px;
-   background: radial-gradient(white, red);
+.pc:hover{
+   transform: scale(1.1);
+   transition: all 400ms ease-in-out;
+}
+ .roy1::after{
+   content: '';
+  background-color: red;
+  width: 150px;
+  height: 3px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 43%;
+ }
+ .roy1{
    cursor: pointer;
-   font-size: 15px;
-}
+   text-align: center;
+   margin: 0 auto 80px;
+   position: relative;
+   line-height: 60px;
+   color: black;
+ }
