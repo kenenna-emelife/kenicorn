@@ -1,12 +1,10 @@
-
 body{
- 
-   overflow-x: hidden;
+   background-color: beige;
 }
 .brands{
    cursor: pointer;
    color: white;
-   background-color:black ;
+   background-color:orange;
    display: flex;
    justify-content: space-around;
    margin-bottom: 10px;
@@ -45,6 +43,7 @@ text-align: center;
    opacity: 0.5;
 }
 .brands ul li:hover .drop{
+   transition: all 100ms ease-in-out ;
    display: block;
    position: absolute;
    background-color: black;
@@ -69,37 +68,46 @@ button {
    float: left;
 }
 .head{
-   margin-top: -10px;
-   left: 5px;
-   
-   width: 1340px;
+   /* margin-top: -10px; */
+   /* left: 5px; */
+   display: flex;
+align-items: center;
+flex: 1;
+flex-wrap: wrap6;
+align-self: center;
+   /* width: 1340px; */
    background-color: white;
 }
 #src {
    text-align: center;
-   top: 10%;
+align-items:center;
+padding: 15px;
+border-radius: 15px;
+margin-left: 20px;
+max-width: 600px;
+border: solid;
+flex: 1;
+   /* top: 10%;
    left: 20%;
-   padding: 15px;
-   border-radius: 15px;
-   border: solid;
    position: absolute;
    height: 20px;
-   width: 800px;
+   width: 800px; */
    display: flex;
   
 }
 
 
 .s {
-   width: 600px;
+   /* width: 600px; */
    border: none;
    outline: none;
    font-size: 20px;
+   flex: 1;
 }
 
-.fa {
+/* .fa {
    padding-bottom: 20px;
-}
+} */
 
 #fa {
    font-size: 150%;
@@ -141,6 +149,7 @@ button {
 }
 
 section {
+   flex-wrap: wrap;
    display: flex;
 }
 
@@ -169,6 +178,7 @@ h3 {
 }
 
 #sec {
+flex-wrap: wrap;
    padding: 10px;
    justify-content: space-evenly;
    background-color: white;
@@ -260,14 +270,16 @@ footer li:hover{
 height: 250px;
 width: 350px;
 cursor: pointer;
-margin-left:25pc ;
 border-radius: 1pc;
-
+display: block;
+margin-left: auto;
+margin-right: auto;
+justify-content: center;
 }
 
-#royce{
-   margin: 3pc;
-  
+.rollsx{
+   
+  flex-wrap: wrap;
 }
 .rolls:hover{
    transform:scale(1.1);
@@ -275,12 +287,10 @@ border-radius: 1pc;
 }
    
 
-#royce h1{
+
+
+.royc{
    text-align: center;
-}
-.rollsx{
-   text-align: center;
-   
 }
 .pc{
    height: 250px;
@@ -293,15 +303,16 @@ margin-left:25pc ;
    transform: scale(1.1);
    transition: all 400ms ease-in-out;
 }
- .roy1::after{
-   content: '';
-  background-color: red;
-  width: 150px;
+ .roy1{
+  border-bottom: 2px solid red;
+   width: 300px;
+  /* background-color: red; */
+  /* width: 150px;
   height: 3px;
   border-radius: 5px;
   position: absolute;
   bottom: 0;
-  left: 43%;
+  left: 43%; */
  }
  .roy1{
    cursor: pointer;

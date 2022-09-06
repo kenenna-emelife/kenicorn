@@ -1,0 +1,84 @@
+*{
+    cursor: crosshair;
+   
+}
+body {
+   
+    background-image:url(images/graph.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    backdrop-filter: blur(20px);
+}
+
+.login-container {
+    background:linear-gradient(45deg,  rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    border-bottom-right-radius: 2pc;
+    border-top-left-radius: 2pc;
+    position: fixed;
+    margin-left: 500px;
+    margin-top: 10%;
+    color: white;
+    box-shadow: 2px 2px 8px 8px black;
+    max-width: 270px;
+    height: auto;
+    text-align: center;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.form {
+    padding: 15px;
+}
+
+a {
+    color: white;
+    margin-left: -10px;
+}
+
+.a:hover {
+    opacity: 0.3;
+}
+
+.login-container:hover {
+    transform: scale(1.1);
+}
+
+ul {
+    margin-bottom: -50px;
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    padding: 15px;
+
+}
+
+.menu-li {
+    text-decoration: none;
+    margin-left: 80px;
+}
+
+.menu-li:hover {
+    color: purple;
+    background-color: pink;
+}
+
+.menu {
+    box-shadow: 2px 2px 6px 6px black;
+}
+button{
+    margin-top: 20px;
+    width: 100px;
+    height: 2pc;
+    background:linear-gradient(45deg, rgba(141, 54, 141,0.5), rgba(0, 0, 0, 0.2));
+    color: white;
+    border: none;
+    cursor: pointer;
+}
